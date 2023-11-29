@@ -1,0 +1,54 @@
+/*Partie commune à toute les pages*/
+header{ display: flex;
+         align-items: center;
+         height:150px;
+         border: 2px solid #009345 ; /* Une bordure solide de 2 pixels avec une couleur grise (#333) */
+         background-color: white;
+       
+}
+
+a:not(#lien_profil,#lien_deconnexion){
+    text-decoration: none; /* Supprime les soulignements par défaut sur les liens */
+    color: black; /* Couleur du texte du lien */
+    padding: 10px; /* Ajoute de l'espace autour du texte du lien */
+    display: block; /* Transforme le lien en bloc pour occuper tout l'espace disponible */
+}
+menu{
+}
+ul{
+    border: 2px solid #009345;
+    background-color: #ffffff;
+    
+}
+li {
+    display: inline-block; /* Affiche les éléments de liste en ligne */
+    background-color: white;
+    
+}
+li:hover{
+    background-color: #009345; /*change de couleur quand la souris passe dessus*/
+}
+#box{padding-left: 670px;
+     padding-top:70px;  
+    
+}
+
+#photo{ 
+        display:inline-flex;
+        padding-right: 10px;
+}
+#nom{padding-left:10px;
+}
+#profil{
+        padding-left: 70px;
+        position: relative;
+            top: -30px;
+    
+}
+#deconnexion{
+        padding-left: 50px;
+        position: relative;
+            top: -40px; 
+        
+}
+/* Fin de la Partie commune à toute les pages*/
